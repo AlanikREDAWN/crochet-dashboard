@@ -1,29 +1,37 @@
 <div class="layout layout--col layout--center">
   {% comment %} <span class="title title--large">Hello, TRMNL!</span> {% endcomment %}
-  <div class="outline flex flex--row flex--between gap--large w--full">
-    <div class="outline">
-      <div>Project Name</div>
-      <div>Subtitle</div>
+  <div class="flex flex--row flex--between gap--large w--full p--2.5">
+    <div class="">
+      <div class="p--1.5 text--large">Project Name</div>
+      <div class="p--1.5 text--base">Subtitle</div>
     </div>
-    <div class="outline text--right">
-      <div>Days ago started</div>
-      <div>Day started</div>
+    <div class="text--right">
+      <div class="p--1.5 text--large">Days ago started</div>
+      <div class="p--1.5 text--base">Day started</div>
     </div>
   </div>
-  <div class="stretch-y outline columns">
-    <div class="column outline">
-      <img class="image image-dither rounded" src="https://picsum.photos/200">
+  <div class="stretch-y columns columns--center">
+    <div class="column w--200px h--200px">
+      <img class="image image-dither rounded h--200" src="https://placecats.com/200/200">
     </div>
-    <div class="column outline h--full">
-      <div class="outline h--full">Time spent working on project</div>
+    <div class="column h--full p--2.5">
+      <div class="h--full text--xxxlarge">2 h 35 min</div>
+      <div class="h--full text--xxlarge">crochet time</div>
+      {% comment %} <div class="h--full"></div> {% endcomment %}
       <div class="divider"></div>
-      <div class="outline h--full">Row count</div>
+
+      <div class="h--full text--large">2 rows per hour</div>
       <div class="divider"></div>
-      <div class="outline h--full">Average pace</div>
+      <div class="h--full text--large">5 hours left</div>
+      <div class="divider"></div>
+      
+      <div class="h--full text--large">2 / 10 rows</div>
+      <div class="divider"></div>
+      <div class="h--full text--large">25% done</div>
     </div>
   </div>
 </div>
 
-<div class="title_bar">
+{% comment %} <div class="title_bar">
   <span class="title">Crochet Dashboard</span>
-</div>
+</div> {% endcomment %}
